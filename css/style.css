@@ -1,0 +1,196 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Adriana Regalado
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     background-color: #f0efef;
+     color: #000;
+     line-height: 1.4;
+     font-family: 'Open Sans', sans-serif;
+     /*font-family: Helvetica, Arial, sans-serif;*/
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+
+header {
+  background-color: #033048;
+  height: 80px;
+ }
+
+h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 24px;
+  padding-left:60px;
+  line-height: 80px;
+  float: left;
+ }
+
+.top-container ul {
+      line-height: 86px;
+      color: yellow;
+      font-size: 14px;
+      float: right;
+      margin-right: 60px;
+ }
+
+.top-container li {
+      display: inline;
+      padding-right: 15px;
+}
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+article {
+  float: left;
+  margin-left: 60px;
+  padding-top: 40px;
+  padding-bottom: 90px; 
+  /*40px 40px 90px;*/
+  width: 700px;
+}
+
+.blue-line {
+    border-bottom: 1px solid #033048;
+}
+
+.article h2 {
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    padding-top: 25px;
+}
+
+.article p {
+    font-size: 24px;
+    font-weight: 300;
+    padding: 20px 0px;
+    margin-bottom: 100px;
+}
+.article p::first-letter {
+    float: left;
+    font-size: 60px;
+    font-weight: 600;
+    padding-right: 5px;
+}
+section {
+  width: 240px;
+  float: right;
+  margin-top: 40px;
+  margin-right: 60px;
+}
+.sidebar {
+    padding-bottom: 20px;
+}
+
+.sidebar h3 {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.sidebar li {
+    display: block;
+    font-size: 24px;
+    font-weight:300;
+    line-height: 32px;
+}
+
+.sidebar img {
+    padding-top: 20px;
+}
+
+.cta-button {
+    background-color: #f9e42e;
+    height: 80px;
+    text-align: center;
+    clear: both;
+}
+
+.cta-button button {
+    background-color: #033048;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 7px;
+    width: 225px;
+}
+
+footer {
+  background-color: #121212;
+  color: white;
+  font-size: 14px;
+  height: 225px;
+  padding-top: 40px;
+  text-align: center;
+
+}
+
+.social-media-links img{
+    padding: 30px 10px;
+}
+
+.twitter {
+    padding-right: 10px;
+}
+
+.logo  {
+    color: #f9e42e;
+    font-size: 24px;
+    font-weight:800;
+}
+
+
