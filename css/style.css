@@ -3,6 +3,16 @@ Project Name: Blank Template
 Client: Your Client
 Author: Adriana Regalado
 Developer @GA in NYC
+
+Adriana-
+Overall, your code is great, one of the best in class for sure.
+
+I reworked your layout a bit to show you a better way - think widths as percentages. This is a key idea as we move into responsive design later in the class.
+
+Overall, everything else was spot on. Keep up the good work.
+
+Best,
+J
 */
 
 
@@ -94,11 +104,8 @@ h1 {
 
 article {
   float: left;
-  margin-left: 60px;
-  padding-top: 40px;
-  padding-bottom: 90px; 
-  /*40px 40px 90px;*/
-  width: 700px;
+  padding: 0 5%;
+  width: 70%;
 }
 
 .blue-line {
@@ -124,11 +131,12 @@ article {
     font-weight: 600;
     padding-right: 5px;
 }
+
+/* Sidebar */
 section {
-  width: 240px;
   float: right;
-  margin-top: 40px;
-  margin-right: 60px;
+  padding: 2.5% 5% 2.5% 0;
+  width: 25%;
 }
 .sidebar {
     padding-bottom: 20px;
@@ -192,5 +200,3 @@ footer {
     font-size: 24px;
     font-weight:800;
 }
-
-
